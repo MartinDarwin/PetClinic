@@ -13,28 +13,28 @@ const Data = [
     nombre: "Firulais",
     fecha_naci: "25/05/2022",
     tipo: "Perro",
-    propietario: "Luis Gomez",
+    propietario: "Luis Gomez Portocarrero",
   },
   {
     id: uuidv4(),
     nombre: "Pelusa",
     fecha_naci: "10/03/2021",
     tipo: "Gato",
-    propietario: "Carlos Vega",
+    propietario: "Carlos Alberto Altamirano",
   },
   {
     id: uuidv4(),
     nombre: "Pepe",
     fecha_naci: "12/09/2022",
     tipo: "Loro",
-    propietario: "Maria Gutierrez",
+    propietario: "Maria Gutierrez Espinoza",
   },
   {
     id: uuidv4(),
     nombre: "Lucas",
     fecha_naci: "02/10/2022",
     tipo: "Perro",
-    propietario: "Juali Aguirre",
+    propietario: "Juan Aguirre Fernadez",
   },
 ];
 
@@ -46,32 +46,27 @@ const ProgramarVisita = () => {
       <div class="item1">
         <Header />
       </div>
-      <div class="row">
-        <div class="col-sm">
+      <div>
           <div class="form-group">
             <label>
               <h4>Mascotas</h4>
             </label>
             <ListMascotaVisita mascotas={mascotas} />
           </div>
-        </div>
       </div>
-      <div class="row">
-        <div class="col-sm">
+      <div>
           <div class="form-group">
             <label>
               <h4>Programación de Visita</h4>
             </label>
             <AddVisita />
           </div>
-        </div>
       </div>
-      <div class="row">
-        <div class="col-sm">
+      <div>
           <div class="form-group">
             <img src="calendario.png" />
           </div>
-        </div>
+
       </div>
     </div>
   );
